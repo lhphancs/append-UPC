@@ -1,2 +1,301 @@
 product_num	upc	description	price	cs
-product_num	upc	description	price	cs
+abc123	000100203030	description number	1.11	0
+abc123	000100203031	description number	1.11	0
+abc123	000100203032	description number	1.11	0
+abc123	000100203033	description number	1.11	0
+abc123	000100203034	description number	1.11	0
+abc123	000100203035	description number	1.11	0
+abc123	000100203036	description number	1.11	0
+abc123	000100203037	description number	1.11	0
+abc123	000100203038	description number	1.11	0
+abc123	000100203039	description number	1.11	0
+abc123	100100203030	description number	1.11	0
+abc123	100100203031	description number	1.11	0
+abc123	100100203032	description number	1.11	0
+abc123	100100203033	description number	1.11	0
+abc123	100100203034	description number	1.11	0
+abc123	100100203035	description number	1.11	0
+abc123	100100203036	description number	1.11	0
+abc123	100100203037	description number	1.11	0
+abc123	100100203038	description number	1.11	0
+abc123	100100203039	description number	1.11	0
+abc123	200100203030	description number	1.11	0
+abc123	200100203031	description number	1.11	0
+abc123	200100203032	description number	1.11	0
+abc123	200100203033	description number	1.11	0
+abc123	200100203034	description number	1.11	0
+abc123	200100203035	description number	1.11	0
+abc123	200100203036	description number	1.11	0
+abc123	200100203037	description number	1.11	0
+abc123	200100203038	description number	1.11	0
+abc123	200100203039	description number	1.11	0
+abc123	300100203030	description number	1.11	0
+abc123	300100203031	description number	1.11	0
+abc123	300100203032	description number	1.11	0
+abc123	300100203033	description number	1.11	0
+abc123	300100203034	description number	1.11	0
+abc123	300100203035	description number	1.11	0
+abc123	300100203036	description number	1.11	0
+abc123	300100203037	description number	1.11	0
+abc123	300100203038	description number	1.11	0
+abc123	300100203039	description number	1.11	0
+abc123	400100203030	description number	1.11	0
+abc123	400100203031	description number	1.11	0
+abc123	400100203032	description number	1.11	0
+abc123	400100203033	description number	1.11	0
+abc123	400100203034	description number	1.11	0
+abc123	400100203035	description number	1.11	0
+abc123	400100203036	description number	1.11	0
+abc123	400100203037	description number	1.11	0
+abc123	400100203038	description number	1.11	0
+abc123	400100203039	description number	1.11	0
+abc123	500100203030	description number	1.11	0
+abc123	500100203031	description number	1.11	0
+abc123	500100203032	description number	1.11	0
+abc123	500100203033	description number	1.11	0
+abc123	500100203034	description number	1.11	0
+abc123	500100203035	description number	1.11	0
+abc123	500100203036	description number	1.11	0
+abc123	500100203037	description number	1.11	0
+abc123	500100203038	description number	1.11	0
+abc123	500100203039	description number	1.11	0
+abc123	600100203030	description number	1.11	0
+abc123	600100203031	description number	1.11	0
+abc123	600100203032	description number	1.11	0
+abc123	600100203033	description number	1.11	0
+abc123	600100203034	description number	1.11	0
+abc123	600100203035	description number	1.11	0
+abc123	600100203036	description number	1.11	0
+abc123	600100203037	description number	1.11	0
+abc123	600100203038	description number	1.11	0
+abc123	600100203039	description number	1.11	0
+abc123	700100203030	description number	1.11	0
+abc123	700100203031	description number	1.11	0
+abc123	700100203032	description number	1.11	0
+abc123	700100203033	description number	1.11	0
+abc123	700100203034	description number	1.11	0
+abc123	700100203035	description number	1.11	0
+abc123	700100203036	description number	1.11	0
+abc123	700100203037	description number	1.11	0
+abc123	700100203038	description number	1.11	0
+abc123	700100203039	description number	1.11	0
+abc123	800100203030	description number	1.11	0
+abc123	800100203031	description number	1.11	0
+abc123	800100203032	description number	1.11	0
+abc123	800100203033	description number	1.11	0
+abc123	800100203034	description number	1.11	0
+abc123	800100203035	description number	1.11	0
+abc123	800100203036	description number	1.11	0
+abc123	800100203037	description number	1.11	0
+abc123	800100203038	description number	1.11	0
+abc123	800100203039	description number	1.11	0
+abc123	900100203030	description number	1.11	0
+abc123	900100203031	description number	1.11	0
+abc123	900100203032	description number	1.11	0
+abc123	900100203033	description number	1.11	0
+abc123	900100203034	description number	1.11	0
+abc123	900100203035	description number	1.11	0
+abc123	900100203036	description number	1.11	0
+abc123	900100203037	description number	1.11	0
+abc123	900100203038	description number	1.11	0
+abc123	900100203039	description number	1.11	0
+def456	000100203030	descriptionnumber	2.22	1
+def456	000100203031	descriptionnumber	2.22	1
+def456	000100203032	descriptionnumber	2.22	1
+def456	000100203033	descriptionnumber	2.22	1
+def456	000100203034	descriptionnumber	2.22	1
+def456	000100203035	descriptionnumber	2.22	1
+def456	000100203036	descriptionnumber	2.22	1
+def456	000100203037	descriptionnumber	2.22	1
+def456	000100203038	descriptionnumber	2.22	1
+def456	000100203039	descriptionnumber	2.22	1
+def456	100100203030	descriptionnumber	2.22	1
+def456	100100203031	descriptionnumber	2.22	1
+def456	100100203032	descriptionnumber	2.22	1
+def456	100100203033	descriptionnumber	2.22	1
+def456	100100203034	descriptionnumber	2.22	1
+def456	100100203035	descriptionnumber	2.22	1
+def456	100100203036	descriptionnumber	2.22	1
+def456	100100203037	descriptionnumber	2.22	1
+def456	100100203038	descriptionnumber	2.22	1
+def456	100100203039	descriptionnumber	2.22	1
+def456	200100203030	descriptionnumber	2.22	1
+def456	200100203031	descriptionnumber	2.22	1
+def456	200100203032	descriptionnumber	2.22	1
+def456	200100203033	descriptionnumber	2.22	1
+def456	200100203034	descriptionnumber	2.22	1
+def456	200100203035	descriptionnumber	2.22	1
+def456	200100203036	descriptionnumber	2.22	1
+def456	200100203037	descriptionnumber	2.22	1
+def456	200100203038	descriptionnumber	2.22	1
+def456	200100203039	descriptionnumber	2.22	1
+def456	300100203030	descriptionnumber	2.22	1
+def456	300100203031	descriptionnumber	2.22	1
+def456	300100203032	descriptionnumber	2.22	1
+def456	300100203033	descriptionnumber	2.22	1
+def456	300100203034	descriptionnumber	2.22	1
+def456	300100203035	descriptionnumber	2.22	1
+def456	300100203036	descriptionnumber	2.22	1
+def456	300100203037	descriptionnumber	2.22	1
+def456	300100203038	descriptionnumber	2.22	1
+def456	300100203039	descriptionnumber	2.22	1
+def456	400100203030	descriptionnumber	2.22	1
+def456	400100203031	descriptionnumber	2.22	1
+def456	400100203032	descriptionnumber	2.22	1
+def456	400100203033	descriptionnumber	2.22	1
+def456	400100203034	descriptionnumber	2.22	1
+def456	400100203035	descriptionnumber	2.22	1
+def456	400100203036	descriptionnumber	2.22	1
+def456	400100203037	descriptionnumber	2.22	1
+def456	400100203038	descriptionnumber	2.22	1
+def456	400100203039	descriptionnumber	2.22	1
+def456	500100203030	descriptionnumber	2.22	1
+def456	500100203031	descriptionnumber	2.22	1
+def456	500100203032	descriptionnumber	2.22	1
+def456	500100203033	descriptionnumber	2.22	1
+def456	500100203034	descriptionnumber	2.22	1
+def456	500100203035	descriptionnumber	2.22	1
+def456	500100203036	descriptionnumber	2.22	1
+def456	500100203037	descriptionnumber	2.22	1
+def456	500100203038	descriptionnumber	2.22	1
+def456	500100203039	descriptionnumber	2.22	1
+def456	600100203030	descriptionnumber	2.22	1
+def456	600100203031	descriptionnumber	2.22	1
+def456	600100203032	descriptionnumber	2.22	1
+def456	600100203033	descriptionnumber	2.22	1
+def456	600100203034	descriptionnumber	2.22	1
+def456	600100203035	descriptionnumber	2.22	1
+def456	600100203036	descriptionnumber	2.22	1
+def456	600100203037	descriptionnumber	2.22	1
+def456	600100203038	descriptionnumber	2.22	1
+def456	600100203039	descriptionnumber	2.22	1
+def456	700100203030	descriptionnumber	2.22	1
+def456	700100203031	descriptionnumber	2.22	1
+def456	700100203032	descriptionnumber	2.22	1
+def456	700100203033	descriptionnumber	2.22	1
+def456	700100203034	descriptionnumber	2.22	1
+def456	700100203035	descriptionnumber	2.22	1
+def456	700100203036	descriptionnumber	2.22	1
+def456	700100203037	descriptionnumber	2.22	1
+def456	700100203038	descriptionnumber	2.22	1
+def456	700100203039	descriptionnumber	2.22	1
+def456	800100203030	descriptionnumber	2.22	1
+def456	800100203031	descriptionnumber	2.22	1
+def456	800100203032	descriptionnumber	2.22	1
+def456	800100203033	descriptionnumber	2.22	1
+def456	800100203034	descriptionnumber	2.22	1
+def456	800100203035	descriptionnumber	2.22	1
+def456	800100203036	descriptionnumber	2.22	1
+def456	800100203037	descriptionnumber	2.22	1
+def456	800100203038	descriptionnumber	2.22	1
+def456	800100203039	descriptionnumber	2.22	1
+def456	900100203030	descriptionnumber	2.22	1
+def456	900100203031	descriptionnumber	2.22	1
+def456	900100203032	descriptionnumber	2.22	1
+def456	900100203033	descriptionnumber	2.22	1
+def456	900100203034	descriptionnumber	2.22	1
+def456	900100203035	descriptionnumber	2.22	1
+def456	900100203036	descriptionnumber	2.22	1
+def456	900100203037	descriptionnumber	2.22	1
+def456	900100203038	descriptionnumber	2.22	1
+def456	900100203039	descriptionnumber	2.22	1
+abc123	000100203030	description number	1.11	0
+abc123	000100203031	description number	1.11	0
+abc123	000100203032	description number	1.11	0
+abc123	000100203033	description number	1.11	0
+abc123	000100203034	description number	1.11	0
+abc123	000100203035	description number	1.11	0
+abc123	000100203036	description number	1.11	0
+abc123	000100203037	description number	1.11	0
+abc123	000100203038	description number	1.11	0
+abc123	000100203039	description number	1.11	0
+abc123	100100203030	description number	1.11	0
+abc123	100100203031	description number	1.11	0
+abc123	100100203032	description number	1.11	0
+abc123	100100203033	description number	1.11	0
+abc123	100100203034	description number	1.11	0
+abc123	100100203035	description number	1.11	0
+abc123	100100203036	description number	1.11	0
+abc123	100100203037	description number	1.11	0
+abc123	100100203038	description number	1.11	0
+abc123	100100203039	description number	1.11	0
+abc123	200100203030	description number	1.11	0
+abc123	200100203031	description number	1.11	0
+abc123	200100203032	description number	1.11	0
+abc123	200100203033	description number	1.11	0
+abc123	200100203034	description number	1.11	0
+abc123	200100203035	description number	1.11	0
+abc123	200100203036	description number	1.11	0
+abc123	200100203037	description number	1.11	0
+abc123	200100203038	description number	1.11	0
+abc123	200100203039	description number	1.11	0
+abc123	300100203030	description number	1.11	0
+abc123	300100203031	description number	1.11	0
+abc123	300100203032	description number	1.11	0
+abc123	300100203033	description number	1.11	0
+abc123	300100203034	description number	1.11	0
+abc123	300100203035	description number	1.11	0
+abc123	300100203036	description number	1.11	0
+abc123	300100203037	description number	1.11	0
+abc123	300100203038	description number	1.11	0
+abc123	300100203039	description number	1.11	0
+abc123	400100203030	description number	1.11	0
+abc123	400100203031	description number	1.11	0
+abc123	400100203032	description number	1.11	0
+abc123	400100203033	description number	1.11	0
+abc123	400100203034	description number	1.11	0
+abc123	400100203035	description number	1.11	0
+abc123	400100203036	description number	1.11	0
+abc123	400100203037	description number	1.11	0
+abc123	400100203038	description number	1.11	0
+abc123	400100203039	description number	1.11	0
+abc123	500100203030	description number	1.11	0
+abc123	500100203031	description number	1.11	0
+abc123	500100203032	description number	1.11	0
+abc123	500100203033	description number	1.11	0
+abc123	500100203034	description number	1.11	0
+abc123	500100203035	description number	1.11	0
+abc123	500100203036	description number	1.11	0
+abc123	500100203037	description number	1.11	0
+abc123	500100203038	description number	1.11	0
+abc123	500100203039	description number	1.11	0
+abc123	600100203030	description number	1.11	0
+abc123	600100203031	description number	1.11	0
+abc123	600100203032	description number	1.11	0
+abc123	600100203033	description number	1.11	0
+abc123	600100203034	description number	1.11	0
+abc123	600100203035	description number	1.11	0
+abc123	600100203036	description number	1.11	0
+abc123	600100203037	description number	1.11	0
+abc123	600100203038	description number	1.11	0
+abc123	600100203039	description number	1.11	0
+abc123	700100203030	description number	1.11	0
+abc123	700100203031	description number	1.11	0
+abc123	700100203032	description number	1.11	0
+abc123	700100203033	description number	1.11	0
+abc123	700100203034	description number	1.11	0
+abc123	700100203035	description number	1.11	0
+abc123	700100203036	description number	1.11	0
+abc123	700100203037	description number	1.11	0
+abc123	700100203038	description number	1.11	0
+abc123	700100203039	description number	1.11	0
+abc123	800100203030	description number	1.11	0
+abc123	800100203031	description number	1.11	0
+abc123	800100203032	description number	1.11	0
+abc123	800100203033	description number	1.11	0
+abc123	800100203034	description number	1.11	0
+abc123	800100203035	description number	1.11	0
+abc123	800100203036	description number	1.11	0
+abc123	800100203037	description number	1.11	0
+abc123	800100203038	description number	1.11	0
+abc123	800100203039	description number	1.11	0
+abc123	900100203030	description number	1.11	0
+abc123	900100203031	description number	1.11	0
+abc123	900100203032	description number	1.11	0
+abc123	900100203033	description number	1.11	0
+abc123	900100203034	description number	1.11	0
+abc123	900100203035	description number	1.11	0
+abc123	900100203036	description number	1.11	0
+abc123	900100203037	description number	1.11	0
+abc123	900100203038	description number	1.11	0
+abc123	900100203039	description number	1.11	0

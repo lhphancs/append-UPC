@@ -21,10 +21,13 @@ ProductInfo = collections.namedtuple('ProductInfo', 'product_num upc description
 def run_program_interface()->None:
     user_input_int = get_user_input_mode()
     read_stream = open(READ_FILE_NAME, 'r')
+    write_stream = open(WRITE_FILE_NAME, 'w')
+    write_header_to_file(write_stream)
+    write_stream.close()
     write_stream = open(WRITE_FILE_NAME, 'a')
 
-    write_header_to_file(write_stream)
-    parse_and_write_file(read_stream, write_stream)
+
+    parse_and_write_file(read_stream, write_stream, user_input_int)
 
 
     read_stream.close()
@@ -70,21 +73,56 @@ def write_header_to_file(write_stream):
             write_stream.write('\n')
             
 
-def parse_and_write_file(read_stream, write_stream)->None:
+def parse_and_write_file(read_stream:'read_stream',
+                         write_stream:'write_stream', user_input_int:int)->None:
     no_upc_count = 0
     for line in read_stream:
         if re.search('[a-zA-Z0-9]', line): #Only parse if line contains something(num/letters)
             product_info = get_info_from_line(line)
             if product_info != None: #If upc grabbed successfully...continue as normal
-                print(product_info)
-                ################
+                write_appended_upc(write_stream, product_info, user_input_int)
             else: #Skip
                 no_upc_count = no_upc_count + 1
                 continue
 
-def get_info_from_line(line:str)->list:
+def write_appended_upc(write_stream:'write_stream',
+                       product_info:ProductInfo, user_input_int:int)->None:
+    if user_input_int == 1:
+        write_left_and_right_upc(write_stream, product_info)
+    elif user_input_int == 2:
+        write_left_upc(write_stream, product_info)
+    else:
+        write_right_upc(write_stream, product_info)
+
+def write_left_and_right_upc(write_stream:'write_stream', product_info:ProductInfo)->None:
+    for i in range(10):
+        for j in range(10):
+            new_upc = str(i) + product_info.upc + str(j)
+            write_line = '{0}\t{1}\t{2}\t{3}\t{4}\n'.format(product_info.product_num,
+                                         new_upc, product_info.description,
+                                         product_info.price, product_info.cs)
+            write_stream.write(write_line)
+
+def write_left_upc(write_stream:'write_stream', product_info:ProductInfo)->None:
+
+    for i in range(10):
+        new_upc = str(i) + product_info.upc
+        write_line = '{0}\t{1}\t{2}\t{3}\t{4}\n'.format(product_info.product_num,
+                                                        new_upc, product_info.description,
+                                                        product_info.price, product_info.cs)
+        write_stream.write(write_line)
+
+def write_right_upc(write_stream:'write_stream', product_info:ProductInfo)->None:
+    for i in range(10):
+        new_upc = product_info.upc + str(i)
+        write_line = '{0}\t{1}\t{2}\t{3}\t{4}\n'.format(product_info.product_num,
+                                                        new_upc, product_info.description,
+                                                        product_info.price, product_info.cs)
+        write_stream.write(write_line)
+
+def get_info_from_line(line:str)->ProductInfo:
     word_list = line.split()
-    product_num = get_and_delete_number(word_list)
+    product_num = get_and_delete_product_num(word_list)
     upc = get_and_delete_upc(word_list)
     if upc == '':
         return None
@@ -95,12 +133,11 @@ def get_info_from_line(line:str)->list:
     return ProductInfo(product_num = product_num, upc = upc,
                        description = description, price = price, cs = cs)
     
-def get_and_delete_number(word_list:list)->str:
+def get_and_delete_product_num(word_list:list)->str:
     return word_list.pop(0)
 
 def get_and_delete_upc(word_list:list)->str:
     upc = ''
-    current_word = ''
     while(True):
         current_word = word_list[0]
         if current_word.isdigit():
@@ -108,8 +145,7 @@ def get_and_delete_upc(word_list:list)->str:
             del word_list[0]
         else:
             break
-    if upc == '':
-        return ''
+    return upc
 
 def get_and_delete_description(word_list:list)->str:
     description = ''
@@ -117,9 +153,10 @@ def get_and_delete_description(word_list:list)->str:
         current_word = word_list[0]
         try:
             float(current_word)
+            description = description.strip()
             return description
         except ValueError:
-            description = description + current_word
+            description = description + ' ' + current_word
             del word_list[0]
 
 def get_and_delete_price(word_list:list)->str:
