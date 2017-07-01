@@ -1,11 +1,25 @@
 '''
-Program will take file, parse it, and spit out same
-file with all possible digit(s) appended to upc.
-User can append number to upc with the following choices:
+7-1-17
+Program will take a file called "in_file.txt", and will write to "out_file.txt".
+"in_file.txt" will be parsed and will write the same file
+with all possible digit(s) appended to upc.
 
+User can append number to upc with the following choices:
 1) Both left end AND right end
 2) ONLY left end
 3) ONLY right end
+
+Example of appending to ONLY left:
+    BEFORE: abc123 001 002 0303 description number 1.11 0
+    AFTER:  abc123 00010020303 description number 1.11 0
+            abc123 10010020303 description number 1.11 0
+            .
+            .
+            .
+            abc123 90010020303 description number 1.11 0
+
+NOTE: header is hardcoded, and the parsed "in_file.txt"
+        must be in the specific format seen above in "BEFORE"
 '''
 
 import re
@@ -168,4 +182,3 @@ def get_and_delete_cs(word_list:list)->str:
             
 if __name__ == '__main__':
     run_program_interface()
-    
