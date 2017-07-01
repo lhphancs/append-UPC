@@ -1,0 +1,2 @@
+product_num	upc	description	price	cs
+product_num	upc	description	price	cs
